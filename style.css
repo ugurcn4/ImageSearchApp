@@ -1,0 +1,63 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: Arial;
+    background-color: beige;
+    position: relative;
+}
+.form-wrapper {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 45px; /* inputun biraz aşağıda görünmesini sağlar */
+}
+.images-wrapper{
+    height: 75%;
+}
+#form {
+    width: 100%;
+    max-width: 800px; /* input genişliğini sınırlar */
+}
+#formInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* butonları inputtan biraz ayırır */
+}
+
+#btn-search, #btn-clear {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
+#btn-search:hover{
+    background-color: green;
+    color: white;
+}
+#btn-clear:hover{
+    background-color: red;
+    color: white;
+}
+
+.images-wrapper {
+    margin-top: 20px; /* resimlerin input ve butonlardan ayrılmasını sağlar */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.icons{
+    height: 14px;
+    width: 14px;
+    margin-right: 3px;
+}
